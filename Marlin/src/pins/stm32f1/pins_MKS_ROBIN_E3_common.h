@@ -132,6 +132,7 @@
 #define TEMP_0_PIN                          PA0   // TH1
 
 #define FIL_RUNOUT_PIN                      PB10  // MT_DET
+#define FIL_RUNOUT2_PIN                     PA2  // MT_DET
 
 //
 // Power Supply Control
@@ -246,7 +247,7 @@
 
 // LED driving pin
 #ifndef BOARD_NEOPIXEL_PIN
-  #define BOARD_NEOPIXEL_PIN                PA2
+  //#define BOARD_NEOPIXEL_PIN                PA2
 #endif
 
 //
